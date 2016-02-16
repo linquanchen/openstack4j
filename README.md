@@ -240,8 +240,7 @@ Image image = os.images().create(Builders.image()
 				.isPublic(true)
 				.containerFormat(ContainerFormat.BARE)
 				.diskFormat(DiskFormat.QCOW2)
-				.build()
-				), Payloads.create(new URL("https://launchpad.net/cirros/trunk/0.3.0/+download/cirros-0.3.0-x86_64-disk.img")));
+				.build(), Payloads.create(new URL("https://launchpad.net/cirros/trunk/0.3.0/+download/cirros-0.3.0-x86_64-disk.img")));
 ```
 
 License
